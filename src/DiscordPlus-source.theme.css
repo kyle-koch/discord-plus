@@ -86,8 +86,8 @@
 :root {
 	/* Unit: size (e.g. pixels) */
 	--dplus-radius-ui: 10px;
-	--dplus-radius-avatar: 20%;
-	--dplus-radius-server: 20%;
+	--dplus-radius-avatar: 50%;
+	--dplus-radius-server: 50%;
 
 	--dplus-spacing-ui: 8px;
 	--dplus-spacing-app: 4px;
