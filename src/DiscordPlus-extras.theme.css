@@ -6,13 +6,12 @@
  * @version 3.2.1
  * @description For development of supplemental features.
  * @donate https://ko-fi.com/plusinsta
- * @website https://plusinsta.github.io/discord-plus
+ * @website https://kyle-koch.github.io/discord-plus
  * @source https://github.com/PlusInsta/discord-plus
- * @updateUrl https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css
- * @invite 2Jwh2nS
+ * @updateUrl https://kyle-koch.github.io/discord-plus/src/DiscordPlus-extras.theme.css
 */
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
-@import url('https://plusinsta.github.io/discord-plus/src/tweaks/compact.css');
+@import url('https://kyle-koch.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
+@import url('https://kyle-koch.github.io/discord-plus/src/tweaks/compact.css');
 
 @font-face { /* a font i made */
   font-family: PixelPetit;
@@ -33,14 +32,14 @@
 .theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name_a08117,
 .theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
   font-size: 0;
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+  background: no-repeat url(//kyle-koch.github.io/discord-plus/assets/wordmark_white.svg);
   background-size: 54px 13px;
   width: 54px; height: 13px;
   opacity: 0.65;
   color: transparent;
 }
 .theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
+  background: no-repeat url(//kyle-koch.github.io/discord-plus/assets/wordmark_black.svg);
 }
 
 [data-list-item-id="channels___554914403011526675"]:hover .name_a08117 { opacity: 0.75 }
@@ -59,7 +58,7 @@
 
 /* custom crash screen */
 .theme-dark .image_a2a7b5, .theme-light .image_a2a7b5 {
-  background-image: url('https://plusinsta.github.io/discord-plus/assets/crash.png');
+  background-image: url('https://kyle-koch.github.io/discord-plus/assets/crash.png');
 }
 
 .image_a2a7b5 {
@@ -98,14 +97,14 @@
   [src*="299339580593799171"],  [src*="224367608382619648"],
   [src*="356817504330448906"],  [src*="181240443747434496"],
   [src*="168569629906698240"],  [src*="408875276265848833"]) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
+  --dplus-badge: url("https://kyle-koch.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
 :is(.member_c8ffbb, .contents_c19a55):has(
   [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"]
 ) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
+  --dplus-badge: url("https://kyle-koch.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
 
@@ -126,12 +125,12 @@
   width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
+.theme-dark { --dplus-badge-memberlist: url("https://kyle-koch.github.io/discord-plus/assets/discord/home_dark.svg"); }
+.theme-light { --dplus-badge-memberlist: url("https://kyle-koch.github.io/discord-plus/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
 .userProfileModalInner_c69a7b:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
-{ background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
+{ background-image: url("https://kyle-koch.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
   width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }
