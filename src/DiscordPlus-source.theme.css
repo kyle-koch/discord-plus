@@ -1,15 +1,11 @@
 /**
-* @name Discord+ (Source)
-* @author PlusInsta
-* @authorId 309931975102300160
-* @authorLink https://plusinsta.xyz
-* @version 3.2.1
-* @description For development of the theme. Enable alongside plugins and extras for local editing.
-* @donate https://ko-fi.com/plusinsta
-* @website https://plusinsta.github.io/discord-plus
-* @source https://github.com/PlusInsta/discord-plus
-* @updateUrl https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css
-* @invite 2Jwh2nS
+* @name Discord+Sath (Source)
+* @author Sathanus
+* @version 1.0.0
+* @description For development of the theme. Enable alongside plugins and extras for local editing. This a shameless rip off of plusinta's Discord+, just made for me and my friends.
+* @website https://kyle-koch.github.io/discord-plus
+* @source https://github.com/kyle-koch/discord-plus
+* @updateUrl https://kyle-koch.github.io/discord-plus/src/DiscordPlus-source.theme.css
 */
 /* 
 ██████████████████████████████████████████████████████████████████████████████████
@@ -81,8 +77,8 @@
 */
 
 /*--- 1 imports ---*/
-@import url('https://plusinsta.github.io/discord-plus/src/i11n.css');
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
+@import url('https://kyle-koch.github.io/discord-plus/src/i11n.css');
+@import url('https://kyle-koch.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
 /* Fonts */
 		
 		/*--- 2 Default Values ---*/
@@ -93,8 +89,8 @@
 	--dplus-radius-avatar: 20%;
 	--dplus-radius-server: 20%;
 
-	--dplus-spacing-ui: 10px;
-	--dplus-spacing-app: 10px;
+	--dplus-spacing-ui: 8px;
+	--dplus-spacing-app: 4px;
 
 	--dplus-icon-avatar-chat: 64px;
 	--dplus-icon-avatar-list: 32px;
@@ -108,9 +104,9 @@
 	--dplus-members-width: 240px;
 
 	/* Value: CSS background-image */
-	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
-	--dplus-wordmark: url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+	--dplus-icon-home-dark: url(https://kyle-koch.github.io/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(https://kyle-koch.github.io/discord-plus/assets/discord/home_light.svg);
+	--dplus-wordmark: url(https://kyle-koch.github.io/discord-plus/assets/wordmark_white.svg);
 
 	/* Unit: seconds */
 	--dplus-anim-short: .2s;
@@ -124,7 +120,17 @@
 }
 
 .theme-dark {
-	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+	  --dplus-backdrop: url(https://i.imgur.com/9rHpr6u.jpeg); /* Cyber Fiber */
+	//  --dplus-backdrop: url(https://i.imgur.com/kuy9eEy.jpeg); /* Cyberpunk Moon */
+	//  --dplus-backdrop: url(https://i.imgur.com/NYGANgy.jpeg); /* Darth Revan */
+	//  --dplus-backdrop: url(https://i.imgur.com/itrPmFm.jpeg); /* Cyberpunkscape */
+	//  --dplus-backdrop: url(https://i.imgur.com/W2hnFKl.jpeg); /* Purple Desert */
+	//  --dplus-backdrop: url(https://i.imgur.com/WihorXl.jpeg); /* Misty Mountain Lake */
+	//  --dplus-backdrop: url(https://i.imgur.com/kwoMEz1.jpeg); /* Cyber Parallelograms */
+	//  --dplus-backdrop: url(https://i.imgur.com/hz4synH.png); /* Firewatchscape */
+	//  --dplus-backdrop: url(https://i.imgur.com/2E4kdmI.jpeg); /* Two Moons */
+	//  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png); /* Red Desert Night, OG Discord+ backdrop */
+	//  --dplus-backdrop: url(); /*  */
 	
 	/* accent color is used for things like buttons */
 	--dplus-accent-color-hue: 320; /* hue in HSL */
