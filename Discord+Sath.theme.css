@@ -46,7 +46,7 @@
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-	  --dplus-backdrop: url(https://i.imgur.com/9rHpr6u.jpeg); /* Cyber Fiber */
+	/*  --dplus-backdrop: url(https://i.imgur.com/9rHpr6u.jpeg); /* Cyber Fiber */
 	/*  --dplus-backdrop: url(https://i.imgur.com/kuy9eEy.jpeg); /* Cyberpunk Moon */
 	/*  --dplus-backdrop: url(https://i.imgur.com/NYGANgy.jpeg); /* Darth Revan */
 	/*  --dplus-backdrop: url(https://i.imgur.com/itrPmFm.jpeg); /* Cyberpunkscape */
@@ -54,7 +54,7 @@
 	/*  --dplus-backdrop: url(https://i.imgur.com/WihorXl.jpeg); /* Misty Mountain Lake */
 	/*  --dplus-backdrop: url(https://i.imgur.com/kwoMEz1.jpeg); /* Cyber Parallelograms */
 	/*  --dplus-backdrop: url(https://i.imgur.com/hz4synH.png); /* Firewatchscape */
-	/*  --dplus-backdrop: url(https://i.imgur.com/2E4kdmI.jpeg); /* Two Moons */
+	  --dplus-backdrop: url(https://i.imgur.com/2E4kdmI.jpeg); /* Two Moons */
 	/*  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png); /* Red Desert Night, OG Discord+ backdrop */
 	/*  --dplus-backdrop: url(); /*  */
   
