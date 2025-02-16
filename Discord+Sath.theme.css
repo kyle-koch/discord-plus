@@ -14,7 +14,17 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+	  --dplus-backdrop: url(https://i.imgur.com/9rHpr6u.jpeg); /* Cyber Fiber */
+	/*  --dplus-backdrop: url(https://i.imgur.com/kuy9eEy.jpeg); /* Cyberpunk Moon */
+	/*  --dplus-backdrop: url(https://i.imgur.com/NYGANgy.jpeg); /* Darth Revan */
+	/*  --dplus-backdrop: url(https://i.imgur.com/itrPmFm.jpeg); /* Cyberpunkscape */
+	/*  --dplus-backdrop: url(https://i.imgur.com/W2hnFKl.jpeg); /* Purple Desert */
+	/*  --dplus-backdrop: url(https://i.imgur.com/WihorXl.jpeg); /* Misty Mountain Lake */
+	/*  --dplus-backdrop: url(https://i.imgur.com/kwoMEz1.jpeg); /* Cyber Parallelograms */
+	/*  --dplus-backdrop: url(https://i.imgur.com/hz4synH.png); /* Firewatchscape */
+	/*  --dplus-backdrop: url(https://i.imgur.com/2E4kdmI.jpeg); /* Two Moons */
+	/*  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png); /* Red Desert Night, OG Discord+ backdrop */
+	/*  --dplus-backdrop: url(); /*  */
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 320;
@@ -36,7 +46,17 @@
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+	  --dplus-backdrop: url(https://i.imgur.com/9rHpr6u.jpeg); /* Cyber Fiber */
+	/*  --dplus-backdrop: url(https://i.imgur.com/kuy9eEy.jpeg); /* Cyberpunk Moon */
+	/*  --dplus-backdrop: url(https://i.imgur.com/NYGANgy.jpeg); /* Darth Revan */
+	/*  --dplus-backdrop: url(https://i.imgur.com/itrPmFm.jpeg); /* Cyberpunkscape */
+	/*  --dplus-backdrop: url(https://i.imgur.com/W2hnFKl.jpeg); /* Purple Desert */
+	/*  --dplus-backdrop: url(https://i.imgur.com/WihorXl.jpeg); /* Misty Mountain Lake */
+	/*  --dplus-backdrop: url(https://i.imgur.com/kwoMEz1.jpeg); /* Cyber Parallelograms */
+	/*  --dplus-backdrop: url(https://i.imgur.com/hz4synH.png); /* Firewatchscape */
+	/*  --dplus-backdrop: url(https://i.imgur.com/2E4kdmI.jpeg); /* Two Moons */
+	/*  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png); /* Red Desert Night, OG Discord+ backdrop */
+	/*  --dplus-backdrop: url(); /*  */
   
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
@@ -68,10 +88,10 @@ Set avatar/server radius to 50% to make them circular.
   --dplus-radius-server: 20%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
-  --dplus-spacing-ui: 10px;
+  --dplus-spacing-ui: 8px;
 
 /* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
-   --dplus-spacing-app: 10px;
+   --dplus-spacing-app: 4px;
 
 /* Size of user and server icons */
 --dplus-icon-avatar-chat: 64px;
